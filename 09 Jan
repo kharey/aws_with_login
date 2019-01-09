@@ -1,0 +1,39 @@
+
+ps
+		: show all  system running process
+
+ps	-a 	: show all system + user process 
+'
+
+kill pid		: 
+kill -9	pid		: forcefully
+
+apt-get update
+apt-get remove packagename
+
+apt-get install python    : is programing language
+apt-get install mysql-server  : is database /backend 
+	
+
+=--connect mysql server database
+mysql -u root -p
+
+
+show databases;    --show list of existing databases
+create database <dbname>;  --create new database
+use <dbname>;   --use /switch database 
+
+show tables;		--show list of existing tables
+
+
+create table <users>(<uid>  int, <name> varchar(30), <pwd> varchar(40));
+
+insert into <users>(uid,name,pwd) values(1,'jatin','xyz');
+insert into <users>(uid,name,pwd) values(2,'xyz','xyz111');
+
+
+select * from users;
+
+
+exit;
+
