@@ -1,0 +1,50 @@
+RDS:
+	Relational Database 
+	RDBMS : Relational Database Management System 
+	
+
+	DB Server Type:
+	=======================
+	-My SQL Server		**
+	-MariaDB
+	-MS SQL Server
+	-Oracle
+	-Postrage
+	-DB2
+	-NoSQL(MongoDB)
+	 		
+Step 1: 
+	Go to Services and Select RDS
+Step 2:
+	Select DB Type : MY SQL Server
+Step 3: Configuration 
+	-DB Version 
+	-Storage 
+	-Enter : server instance name : dbs91	
+		abhishek :user
+ 		Test1234 : pwd
+	
+
+
+end point:
+dbs91.cyykphdotlax.ap-south-1.rds.amazonaws.com
+
+
+
+Step 4: Install or Setup Connector
+	
+
+[Window Title]
+Error
+
+[Content]
+Can't connect to MySQL server on 'dbs91.cyykphdotlax.ap-south-1.rds.amazonaws.com' (10060)
+
+[OK]
+
+[Footer]
+Find some help on this error
+		
+
+
+		
